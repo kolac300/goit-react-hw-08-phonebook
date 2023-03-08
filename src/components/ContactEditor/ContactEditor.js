@@ -6,7 +6,6 @@ import { ErrorMessage, Formik } from 'formik';
 import {
   InvalidValue,
   Label,
-  StyledErrorMessage,
   StyledField,
   StyledForm,
 } from './ContactEditor.styled';
