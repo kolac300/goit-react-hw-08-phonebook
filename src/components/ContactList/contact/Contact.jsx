@@ -1,4 +1,3 @@
-import { Li } from './Contact.styled';
 import PropTypes from 'prop-types';
 import React, { useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
@@ -6,6 +5,7 @@ import { deleteContact, updateContact } from 'redux/contacts/operations';
 import { selectAllContacts } from 'redux/contacts/selectors';
 import { isAlredyExistInContacts } from 'components/ContactEditor/ContactEditor';
 import { toast } from 'react-hot-toast';
+import { Button, Input, Stack } from '@chakra-ui/react';
 
 export const Contact = ({ name, number, id }) => {
   const dispatch = useDispatch();
@@ -25,12 +25,25 @@ export const Contact = ({ name, number, id }) => {
   }
 
   return (
-    <Li>
-      <input ref={NameRef} defaultValue={name} type='text' />:
-      <input ref={NumberRef} defaultValue={number} type='text' />
-      <button onClick={handleDelete}>Delete</button>
-      <button onClick={handleUpdate}>Save changes</button>
-    </Li>
+    <li>
+      <Stack direction='row' spacing={4} align='center'>
+        <Input ref={NameRef}
+          defaultValue={name}
+          focusBorderColor='lime'
+        />
+        <Input ref={NumberRef}
+          defaultValue={number}
+          focusBorderColor='lime'
+        />
+        <Button colorScheme="purple" variant="solid" onClick={handleDelete}>
+          Delete
+        </Button>
+        <Button colorScheme="purple" variant="solid" onClick={handleUpdate}>
+          Save
+        </Button>
+      </Stack>
+      <br />
+    </li>
   );
 };
 Contact.propTypes = {

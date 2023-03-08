@@ -58,7 +58,6 @@ const contactsSlice = createSlice({
         contact => contact.id === action.payload.id
       );
       state.items[index] = action.payload;
-      console.log('first', action.payload);
     },
     [logOut.fulfilled](state) {
       state.items = [];

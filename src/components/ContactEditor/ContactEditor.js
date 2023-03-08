@@ -2,18 +2,29 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addContact } from 'redux/contacts/operations';
 import * as yup from 'yup';
 import { toast } from 'react-hot-toast';
-import { ErrorMessage, Field, Formik } from 'formik';
-import { InvalidValue, Label, StyledForm } from './ContactEditor.styled';
+import { ErrorMessage, Formik } from 'formik';
+import {
+  InvalidValue,
+  Label,
+  StyledErrorMessage,
+  StyledField,
+  StyledForm,
+} from './ContactEditor.styled';
 import { selectAllContacts } from 'redux/contacts/selectors';
+import { Button } from '@chakra-ui/react';
 
 const phoneRegexp = /^\+380\d{3}\d{2}\d{2}\d{2}$/;
 const scheme = yup.object().shape({
   number: yup
     .string()
     .trim()
-    .matches(phoneRegexp, 'add correct format phone +380ххххххххх')
-    .required(),
-  name: yup.string().min(3).max(40).required(),
+    .matches(phoneRegexp, '+380xxxxxxxxx')
+    .required('required'),
+  name: yup
+    .string()
+    .min(3, 'at least 3 symbols')
+    .max(40, 'at most 40 symbols')
+    .required('required'),
 });
 const initialValues = {
   number: '',
@@ -42,7 +53,6 @@ export const ContactEditor = () => {
 
   return (
     <>
-      <h1>Phone Book</h1>
       <Formik
         initialValues={initialValues}
         validationSchema={scheme}
@@ -50,13 +60,15 @@ export const ContactEditor = () => {
       >
         <StyledForm>
           <Label>Name</Label>
-          <Field type="text" name="name" />
+          <StyledField type="text" name="name" />
           <ErrorMessage component={InvalidValue} name="name" />
           <Label>Number</Label>
-          <Field type="tel" name="number" />
+          <StyledField type="tel" name="number" />
           <ErrorMessage component={InvalidValue} name="number" />
           <Label htmlFor="">
-            <button type="submit">Add contact</button>
+            <Button type="submit" colorScheme="purple" size="lg">
+              Add contact
+            </Button>
           </Label>
         </StyledForm>
       </Formik>

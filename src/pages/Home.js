@@ -7,7 +7,7 @@ const styles = {
   },
   title: {
     fontWeight: 500,
-    fontSize: 48,
+    fontSize: 200,
     textAlign: 'center',
   },
 };
@@ -16,10 +16,13 @@ export default function Home() {
   return (
     <div style={styles.container}>
       <h1 style={styles.title}>
-        Contacts manager welcome page{' '}
-        <span role="img" aria-label="Greeting icon">
-          💁‍♀️
-        </span>
+        <em>W</em>
+        <em>E</em>
+        <em>L</em>
+        <em>C</em>
+        <em>O</em>
+        <em>M</em>
+        <em>E</em>
       </h1>
     </div>
   );
