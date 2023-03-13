@@ -25,7 +25,7 @@
 
 ![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
 
-Проскролив страницу до самого конца, в секции `«Workflow permissions»` выбери
+Проскролив страницу до самого конца, в секцииd `«Workflow permissions»` выбери
 опцию `«Read and write permissions»` и поставь галочку в чекбоксе. Это
 необходимо для автоматизации процесса деплоя проекта.
 
