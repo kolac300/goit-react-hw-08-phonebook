@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/phonebook-validations/static/css/main.23775710.css",
-    "main.js": "/phonebook-validations/static/js/main.f5af96b7.js",
+    "main.js": "/phonebook-validations/static/js/main.7766794e.js",
     "static/js/266.d166c52c.chunk.js": "/phonebook-validations/static/js/266.d166c52c.chunk.js",
     "static/css/40.1e05f24e.chunk.css": "/phonebook-validations/static/css/40.1e05f24e.chunk.css",
     "static/js/40.5f5a50e3.chunk.js": "/phonebook-validations/static/js/40.5f5a50e3.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/618.ca98c208.chunk.js": "/phonebook-validations/static/js/618.ca98c208.chunk.js",
     "index.html": "/phonebook-validations/index.html",
     "main.23775710.css.map": "/phonebook-validations/static/css/main.23775710.css.map",
-    "main.f5af96b7.js.map": "/phonebook-validations/static/js/main.f5af96b7.js.map",
+    "main.7766794e.js.map": "/phonebook-validations/static/js/main.7766794e.js.map",
     "266.d166c52c.chunk.js.map": "/phonebook-validations/static/js/266.d166c52c.chunk.js.map",
     "40.1e05f24e.chunk.css.map": "/phonebook-validations/static/css/40.1e05f24e.chunk.css.map",
     "40.5f5a50e3.chunk.js.map": "/phonebook-validations/static/js/40.5f5a50e3.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.23775710.css",
-    "static/js/main.f5af96b7.js"
+    "static/js/main.7766794e.js"
   ]
 }
