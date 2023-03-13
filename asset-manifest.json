@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-08-phonebook/static/css/main.23775710.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.7acb5f67.js",
-    "static/js/266.d166c52c.chunk.js": "/goit-react-hw-08-phonebook/static/js/266.d166c52c.chunk.js",
-    "static/css/40.1e05f24e.chunk.css": "/goit-react-hw-08-phonebook/static/css/40.1e05f24e.chunk.css",
-    "static/js/40.5f5a50e3.chunk.js": "/goit-react-hw-08-phonebook/static/js/40.5f5a50e3.chunk.js",
-    "static/css/635.e2937cc9.chunk.css": "/goit-react-hw-08-phonebook/static/css/635.e2937cc9.chunk.css",
-    "static/js/635.64fdce46.chunk.js": "/goit-react-hw-08-phonebook/static/js/635.64fdce46.chunk.js",
-    "static/js/31.4d1d56d1.chunk.js": "/goit-react-hw-08-phonebook/static/js/31.4d1d56d1.chunk.js",
-    "static/js/880.f37a5fac.chunk.js": "/goit-react-hw-08-phonebook/static/js/880.f37a5fac.chunk.js",
-    "static/js/618.949df896.chunk.js": "/goit-react-hw-08-phonebook/static/js/618.949df896.chunk.js",
-    "index.html": "/goit-react-hw-08-phonebook/index.html",
-    "main.23775710.css.map": "/goit-react-hw-08-phonebook/static/css/main.23775710.css.map",
-    "main.7acb5f67.js.map": "/goit-react-hw-08-phonebook/static/js/main.7acb5f67.js.map",
-    "266.d166c52c.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/266.d166c52c.chunk.js.map",
-    "40.1e05f24e.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/40.1e05f24e.chunk.css.map",
-    "40.5f5a50e3.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/40.5f5a50e3.chunk.js.map",
-    "635.e2937cc9.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/635.e2937cc9.chunk.css.map",
-    "635.64fdce46.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/635.64fdce46.chunk.js.map",
-    "31.4d1d56d1.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/31.4d1d56d1.chunk.js.map",
-    "880.f37a5fac.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/880.f37a5fac.chunk.js.map",
-    "618.949df896.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/618.949df896.chunk.js.map"
+    "main.css": "/phonebook-validations/static/css/main.23775710.css",
+    "main.js": "/phonebook-validations/static/js/main.f5af96b7.js",
+    "static/js/266.d166c52c.chunk.js": "/phonebook-validations/static/js/266.d166c52c.chunk.js",
+    "static/css/40.1e05f24e.chunk.css": "/phonebook-validations/static/css/40.1e05f24e.chunk.css",
+    "static/js/40.5f5a50e3.chunk.js": "/phonebook-validations/static/js/40.5f5a50e3.chunk.js",
+    "static/css/635.e2937cc9.chunk.css": "/phonebook-validations/static/css/635.e2937cc9.chunk.css",
+    "static/js/635.64fdce46.chunk.js": "/phonebook-validations/static/js/635.64fdce46.chunk.js",
+    "static/js/31.4d1d56d1.chunk.js": "/phonebook-validations/static/js/31.4d1d56d1.chunk.js",
+    "static/js/880.f37a5fac.chunk.js": "/phonebook-validations/static/js/880.f37a5fac.chunk.js",
+    "static/js/618.ca98c208.chunk.js": "/phonebook-validations/static/js/618.ca98c208.chunk.js",
+    "index.html": "/phonebook-validations/index.html",
+    "main.23775710.css.map": "/phonebook-validations/static/css/main.23775710.css.map",
+    "main.f5af96b7.js.map": "/phonebook-validations/static/js/main.f5af96b7.js.map",
+    "266.d166c52c.chunk.js.map": "/phonebook-validations/static/js/266.d166c52c.chunk.js.map",
+    "40.1e05f24e.chunk.css.map": "/phonebook-validations/static/css/40.1e05f24e.chunk.css.map",
+    "40.5f5a50e3.chunk.js.map": "/phonebook-validations/static/js/40.5f5a50e3.chunk.js.map",
+    "635.e2937cc9.chunk.css.map": "/phonebook-validations/static/css/635.e2937cc9.chunk.css.map",
+    "635.64fdce46.chunk.js.map": "/phonebook-validations/static/js/635.64fdce46.chunk.js.map",
+    "31.4d1d56d1.chunk.js.map": "/phonebook-validations/static/js/31.4d1d56d1.chunk.js.map",
+    "880.f37a5fac.chunk.js.map": "/phonebook-validations/static/js/880.f37a5fac.chunk.js.map",
+    "618.ca98c208.chunk.js.map": "/phonebook-validations/static/js/618.ca98c208.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23775710.css",
-    "static/js/main.7acb5f67.js"
+    "static/js/main.f5af96b7.js"
   ]
 }
